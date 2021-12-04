@@ -20,6 +20,10 @@ const routes: Routes = [
     path: 'action-sheet',
     loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
   },
+  {
+    path: 'tercer-parcial',
+    loadChildren: () => import('./pages/tercer-parcial/tercer-parcial.module').then( m => m.TercerParcialPageModule)
+  },
  
 ];
 

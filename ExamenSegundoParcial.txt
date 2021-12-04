@@ -1,0 +1,12 @@
+Todos los cambios fueron generados en src/app/pages
+
+src/app/pages/alert/alert.page.html
+-Le puse un Input de tipo floating, nada más pidiendo información básica para probar.
+
+src/app/pages/action-sheet/action-sheet.page.html
+-Lo primero que hay es un Card con foto y descripción.
+-De ahi agregue un badge que tiene un inicio y fin.
+-De ahí agregue un Date $ Time picker, nomas donde se puede seleccionar el día, mes y año.
+-Da ahi sigue un progress bar indefinido, que siempre se anda moviendo como si cargara algo.
+-Y agregue un badge que dice alert nomas para que se identifique en que parte anda.
+

@@ -1,0 +1,58 @@
+<ion-header>
+    <ion-toolbar color="danger">
+
+        <ion-buttons>
+            <ion-back-button></ion-back-button>
+            <ion-title>Tercer Parcial</ion-title>
+        </ion-buttons>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <img src="https://i.pinimg.com/236x/1e/bc/70/1ebc70d9a07e3697730aa9979dc8c6a9.jpg" />
+        <ion-card-header>
+            <ion-card-subtitle>Un card bn card</ion-card-subtitle>
+            <ion-card-title>Wenas las tengan</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            Prueba de card para el examen de tercer parcial.
+        </ion-card-content>
+    </ion-card>
+</ion-content>
+
+
+<ion-content>
+    <ion-chip color="secondary">
+        <ion-label color="dark">Esta es una prueba para el examen.</ion-label>
+    </ion-chip>
+
+    <ion-chip>
+        <ion-icon name="heart" color="dark"></ion-icon>
+        <ion-label>Dele like pa pasar el examen.</ion-label>
+    </ion-chip>
+
+    <!-- Number type input -->
+    <ion-input type="number" value="333"></ion-input>
+</ion-content>
+
+<ion-content>
+    <!-- Toggles in a List -->
+    <ion-list>
+        <ion-item>
+            <ion-label>Pantalones azules facheros</ion-label>
+            <ion-toggle [(ngModel)]="pantalones"></ion-toggle>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Esqueleto</ion-label>
+            <ion-toggle [(ngModel)]="esqueleto"></ion-toggle>
+        </ion-item>
+        <ion-item>
+            <ion-label>Pistola</ion-label>
+            <ion-toggle [(ngModel)]="Pistola"></ion-toggle>
+        </ion-item>
+    </ion-list>
+</ion-content>
